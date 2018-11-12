@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Carolin Kirotari portfoolio </h1>
+  <div id="sissejuhatus">
+    <h2>Projekt</h2>
+    <p>See veebileht on tehtud sissejuhatus erialasse raames Joosep Kaimre, Carolin Kirotari ja Marc Davidi poolt. </p>
+</body>
