@@ -14,4 +14,27 @@
   <div id="sissejuhatus">
     <h2>Projekt</h2>
     <p>See veebileht on tehtud sissejuhatus erialasse raames Joosep Kaimre, Carolin Kirotari ja Marc Davidi poolt. </p>
+
+<h2>Tutvustus</h2>
+<p> Kes ma olen?
+Minu nimi on Carolin. Olen �ks L�una-Eesti neiu, kelle suurimaks kireks on fotograafia.
+
+Miks fotograafia?
+�eldakse, et igal inimesel on oma kirg. Kuid erinevate asjade suhtes. Minu omaks on pildistamine. Juba v�iksena katsetasin lihtsa filmikaameraga pilti teha. Alates sellest hetkest ei ole ma kaamerat oma k�est suutnud �ra panna. 
+
+Milliseid pilte ma teen?
+Ma j��dvustan inimesi, nende olulisi �ritusi/s�ndmusi ja nende seiklusi. 
+
+Kui sul on v�himatki pildisoovi, siis v�ta julgelt �hendust!
+
+Facebook: Carolin Kirotar
+Instagram: carolinkirotar
+carolinkirotar7@gmail.com
+<p/>
+
+
+
+
+
+
 </body>
