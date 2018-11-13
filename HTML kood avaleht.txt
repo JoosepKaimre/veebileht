@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Praks8</title>
+   <script src="jsExample.js" rel="script"></script>
+   <link href="stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+
 <body>
   <h1>Carolin Kirotari portfoolio </h1>
   <div id="sissejuhatus">
