@@ -26,7 +26,7 @@ a.anchor {
 }
 
 #splash{
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/home.jpg);
+  background-image: img(IMG_6000-5.jpg);
   background-size: cover;
   background-position: center;
   height: 100%;
