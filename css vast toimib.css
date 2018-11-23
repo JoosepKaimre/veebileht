@@ -26,7 +26,7 @@ a.anchor {
 }
 
 #splash{
-  background-image: img(IMG_6000-5.jpg);
+  background-color: rgba(0,0,0,0.8);
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -53,7 +53,7 @@ a.anchor {
   }
 
 #portfolio{
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/portfolio.jpg);
+  background-color: rgba(0,0,0,0.8);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -96,7 +96,7 @@ a.anchor {
 }
 
 #about{
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/about.jpg);
+  background-color: rgba(0,0,0,0.8);
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -132,7 +132,7 @@ a.anchor {
 }
 
 #contact{
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/contact.jpg);
+  background-color:  rgba(0,0,0,0.8);
   background-position: center;
   background-size: cover;
   height: 100%;
