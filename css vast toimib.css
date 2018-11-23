@@ -70,9 +70,9 @@ a.anchor {
   }
 
  img {
-    max-height: 250px;
-    max-width: 300px;
-    width: 30%;
+    height: 250px;
+    width: 300px;
+    width: 5%;
     float: left;
     margin: 1.66%;
     opacity: 0.8;
