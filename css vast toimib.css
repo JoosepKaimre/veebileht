@@ -26,7 +26,6 @@ a.anchor {
 }
 
 #splash{
-  background-color: rgba(0,0,0,0.8);
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -67,9 +66,9 @@ a.anchor {
     
 
  img {
-    max-height: 10px;
-    max-width: 15px;
-    width: 10%;
+    max-height: 400px;
+    max-width: 600px;
+    width: 30%;
     float: left;
     margin: 1.66%;
     opacity: 0.8;
