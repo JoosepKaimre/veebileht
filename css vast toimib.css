@@ -6,6 +6,7 @@
 
 body{
   font-family: "Ubuntu", sans-serif;
+  background-color: #333
 }
 
 a.anchor {
@@ -26,7 +27,7 @@ a.anchor {
 }
 
 #splash{
-  background-color: rgba(0,0,0,0.8);
+  
   background-size: cover;
   background-position: center;
   height: 100%;

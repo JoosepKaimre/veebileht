@@ -16,7 +16,8 @@ $(function() {
       }
     });
   }
-
+  window.location = 'vast toimib.html#portfolio-link';
+  window.location = 'vast toimib.html#about-link';
   // call sizeSections on load
   sizeSections();
   // attach smoothScroll jQuery plugin to indicated links
