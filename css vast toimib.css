@@ -93,7 +93,7 @@ a.anchor {
   transition: 0.2s;
 }
 
-  #portfolio h1 {
+#portfolio h1 {
   margin: 1.66%;
  }
 
@@ -165,7 +165,7 @@ a.anchor {
 }
 
 #about{
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.7);
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -187,15 +187,15 @@ a.anchor {
   }
 
   #about img{
-    padding: 1px;
+    padding: 3px;
     height: 300px;
     width: 300px;
   }
 
 #white-bg{
-  /*background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0,0,0, 0.8);
   border-radius: 20px;
-  margin-right: 10px;*/
+  margin-right: 10px;
   float: left;
   display: inline-block;
   vertical-align: middle;
