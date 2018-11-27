@@ -30,8 +30,8 @@ a.anchor {
   
   background-size: cover;
   background-position: center;
-  height: 100%;
-  margin-top: 10%;
+  height: 70%;
+  margin-top: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
   color: #fff;
@@ -93,11 +93,10 @@ a.anchor {
   transition: 0.2s;
 }
 
-
-
   #portfolio h1 {
   margin: 1.66%;
  }
+
 .modal {
   display: none;
   position: fixed;
@@ -136,7 +135,6 @@ a.anchor {
   to {transfrom: scale(1)}
 }
 .close {
-  
   top: 5%;
   padding-right:30%;
   color: yellow;
@@ -151,8 +149,6 @@ a.anchor {
   text-decoration: none;
   cursor: pointer;
 }
-
-
 
  img {
     max-height: 400px;
@@ -182,7 +178,7 @@ a.anchor {
   background-position: center;
   background-size: cover;
   height: 100%;
-  #padding-bottom: 10%;
+  padding-bottom: 10%;
   color: #fff;
 }
 
@@ -200,9 +196,9 @@ a.anchor {
   }
 
   #about img{
-    padding: 10px;
+    padding: 1px;
     height: 300px;
-    width: 450px;
+    width: 300px;
   }
 
 #white-bg{
@@ -212,7 +208,7 @@ a.anchor {
   float: left;
   display: inline-block;
   vertical-align: middle;
-  padding: 6% 2%;
+  padding: 4% 2%;
 }
 
 #contact{
@@ -220,8 +216,8 @@ a.anchor {
   background-position: center;
   background-size: cover;
   height: 100%;
-  padding-bottom: 5%;
-  padding-top: 10%;
+  padding-bottom: 1%;
+  padding-top: 50%;
   color: #fff;
 }
 
