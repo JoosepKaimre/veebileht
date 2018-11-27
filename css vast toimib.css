@@ -29,7 +29,6 @@ a.anchor {
 #splash{
   
   background-size: cover;
-  background-position: center;
   height: 80%;
   margin-top: 10%;
   padding-top: 5%;
@@ -57,7 +56,7 @@ a.anchor {
   background-color: rgba(0,0,0,0.8);
   background-size: cover;
   #background-position: center;
-  height: 100%;
+  height: 95%;
   padding-bottom: 50px;
   color: #fff;
 }
