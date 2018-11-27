@@ -67,8 +67,33 @@ a.anchor {
   cursor: pointer;
   transition: 0.2s;
 }
+#teine{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#kolmas{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#neljas{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#viies{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#kuues{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
 
-#esimene:hover {opacity: 0.8;}
+
 
   #portfolio h1 {
   margin: 1.66%;
