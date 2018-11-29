@@ -14,10 +14,10 @@
   </head>
   <body>
 
-    <!-- Start Navigation Bar -->
+    <!-- Navigatsiooni riba algus -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
+        
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -28,7 +28,7 @@
           <span class="navbar-brand">Carolin Kirotar</span>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
+        
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#home">Avaleht <span class="sr-only">(current)</span></a></li>
@@ -41,12 +41,12 @@
             
             
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+        </div>
+      </div>
     </nav>
-    <!-- End Navagation Bar -->
+    <!-- Navigatsiooni riba lõpp -->
     
-    <!-- Start Splash Section  -->
+    <!-- Avalehe osa algus  -->
     <a class="anchor" id="home"></a>
     <div id="splash" class="container-fluid">
       <div class="row">
@@ -64,9 +64,9 @@
         </div>
       </div>
     </div>
-    <!-- End Splash Section  -->
+    <!--Avalehe osa lõpp  -->
 
-    <!-- Start portfolio Section  -->
+    <!-- portfoolio/galerii osa algus  -->
     <a class="anchor" id="portfolio-link"></a>
     <div id="portfolio" class="container-fluid text-center">
       <div class="row">
@@ -79,7 +79,7 @@
 
             
 
-<!-- pildi avamine-->
+
 <img id = "esimene" src="IMG_7547-2.jpg" alt="Lapsed sügisel">
 <img id = "teine" src="IMG_5564-1.jpg" alt="Ema ja tütar vaatamas vett" >                   
 <img id = "kolmas" src="IMG_5869-3.jpg" alt = "Svjata Vatra kontsert Räpina Sadamas">
@@ -91,20 +91,20 @@
 <img id = "kuues" src="IMG_6644-5.jpg" alt = "Seiklus poistega varahommikuses udus" >
 <div id="avatud_pilt" class="modal">
 
-  <!-- The Close Button -->
+  
   <span class="close">&times;</span>
 
-  <!-- Modal Content (The Image) -->
+  
   <img class="modal-content" id="img01">
 
-  <!-- Modal Caption (Image Text) -->
+  
   <div id="pealkiri"></div>
 </div>
 
-  <script>// Get the modal
+  <script>
     var modal = document.getElementById('avatud_pilt');
     
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    
     var img1 = document.getElementById('esimene');
     var img2 = document.getElementById('teine');
     var img3 = document.getElementById('kolmas');
@@ -144,18 +144,18 @@
         captionText.innerHTML = this.alt;
     }
     
-    // Get the <span> element that closes the modal
+   
     var span = document.getElementsByClassName("close")[0];
     
-    // When the user clicks on <span> (x), close the modal
+   
     span.onclick = function() { 
       modal.style.display = "none";
     }</script>
 
 
-    <!-- End portfolio Section  -->
+    <!-- Portfoolio osa lõpp  -->
 
-    <!-- Start About Section -->
+    <!-- Tutvustuse osa algus -->
 
     <div id="about" class="container-fluid text-center">
           <br>
@@ -165,7 +165,7 @@
           <hr />
           <div class="container">
             <div class="row row-eq-height">
-              <!-- <div class="col-lg-1"></div> -->
+              
               <div class="col-lg-3">
                 <img class="img-responsive img-circle center-block" src="IMG_7101-1-1.jpg" alt="Carolin" />
               </div>
@@ -186,9 +186,9 @@ Ma jäädvustan inimesi, nende olulisi üritusi/sündmusi ja nende seiklusi.
             </div>
           </div>
     </div>
-    <!-- End About Section -->
+    <!-- Tutvustuse osa lõpp -->
 
-    <!-- Start Contact Section -->
+    <!-- Kontakti osa algus -->
 
     <div id="contact" class="container-fluid text-center">
       <h1>Kontakt</h1>
@@ -240,7 +240,7 @@ Ma jäädvustan inimesi, nende olulisi üritusi/sündmusi ja nende seiklusi.
         </div>
       </div>
     </div>
-    <!-- End Contact Section -->
+    <!-- Kontakti osa lõpp -->
 
     <script type="text/javascript">
      $(document).ready(function(){
