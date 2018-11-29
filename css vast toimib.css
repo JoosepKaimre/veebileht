@@ -117,7 +117,7 @@ a.anchor {
   max-width: 500px;
 }
 
-.modal-content, #caption{
+.modal-content, #pealkiri{
   animation-name: zoom;
   animation-duration: 0,8s;
 }

@@ -14,10 +14,10 @@
   </head>
   <body>
 
-    <!-- NAVBARI algus -->
+    <!-- Start Navigation Bar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <!-- Allolev kood on paremaks vaatamiseks mobiilist -->
+        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -28,23 +28,25 @@
           <span class="navbar-brand">Carolin Kirotar</span>
         </div>
 
-        <!-- liikumiseks nimed  -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#home">Avaleht <span class="sr-only">(current)</span></a></li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#portfoolio-link">Portfoolio</a></li>
-            <li><a href="#kirjeldus-link">Tutvustus</a></li>
-            <li><a href="#kontakt-link">Kontakt</a></li>
+            <li><a href="#portfolio-link">Portfoolio</a></li>
+            <li><a href="#about-link">Tutvustus</a></li>
+            <li><a href="#contact-link">Kontakt</a></li>
+            
+            
           </ul>
-        </div>
-      </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
-    <!-- NAVBARI LÕPP -->
+    <!-- End Navagation Bar -->
     
-    <!-- Avakuva  -->
+    <!-- Start Splash Section  -->
     <a class="anchor" id="home"></a>
     <div id="splash" class="container-fluid">
       <div class="row">
@@ -62,10 +64,10 @@
         </div>
       </div>
     </div>
-    <!-- Avakuva lõpp  -->
+    <!-- End Splash Section  -->
 
-    <!-- Portfoolio algus  -->
-    <a class="anchor" id="portfoolio-link"></a>
+    <!-- Start portfolio Section  -->
+    <a class="anchor" id="portfolio-link"></a>
     <div id="portfolio" class="container-fluid text-center">
       <div class="row">
         <div class="col-lg-12 text-center"></div>
@@ -77,7 +79,7 @@
 
             
 
-<!-- pildi avamine/vaheleht-->
+<!-- pildi avamine-->
 <img id = "esimene" src="IMG_7547-2.jpg" alt="Lapsed sügisel">
 <img id = "teine" src="IMG_5564-1.jpg" alt="Ema ja tütar vaatamas vett" >                   
 <img id = "kolmas" src="IMG_5869-3.jpg" alt = "Svjata Vatra kontsert Räpina Sadamas">
@@ -87,77 +89,77 @@
 <img id = "viies" src="IMG_6522-1.jpg" alt = "Britta">
                   
 <img id = "kuues" src="IMG_6644-5.jpg" alt = "Seiklus poistega varahommikuses udus" >
-<div id="myModal" class="modal">
+<div id="avatud_pilt" class="modal">
 
-  <!-- Pildi sulgemisnupp -->
+  <!-- The Close Button -->
   <span class="close">&times;</span>
 
-  <!-- Modal Content (pilt) -->
+  <!-- Modal Content (The Image) -->
   <img class="modal-content" id="img01">
 
-  <!-- Modal pildikirjeldus -->
-  <div id="caption"></div>
+  <!-- Modal Caption (Image Text) -->
+  <div id="pealkiri"></div>
 </div>
 
+  <script>// Get the modal
+    var modal = document.getElementById('avatud_pilt');
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img1 = document.getElementById('esimene');
+    var img2 = document.getElementById('teine');
+    var img3 = document.getElementById('kolmas');
+    var img4 = document.getElementById('neljas');
+    var img5 = document.getElementById('viies');
+    var img6 = document.getElementById('kuues');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("pealkiri");
+    img1.onclick  = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    img2.onclick  = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    img3.onclick  = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    img4.onclick  = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    img5.onclick  = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    img6.onclick  = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }</script>
 
-<script>  // Get the modal
-  var modal = document.getElementById('myModal');
 
-  // Get the image and insert it inside the modal - use its "alt" text as a caption
-  var img1 = document.getElementById('esimene');
-  var img2 = document.getElementById('teine');
-  var img3 = document.getElementById('kolmas');
-  var img4 = document.getElementById('neljas');
-  var img5 = document.getElementById('viies');
-  var img6 = document.getElementById('kuues');
-  var modalImg = document.getElementById("img01");
-  var captionText = document.getElementById("caption");
-  img1.onclick  = function(){
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-  }
-  img2.onclick  = function(){
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-  }
-  img3.onclick  = function(){
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-  }
-  img4.onclick  = function(){
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-  }
-  img5.onclick  = function(){
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-  }
-  img6.onclick  = function(){
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-  }
-  
-  // Get the <span> element that sulge modaal
-  var span = document.getElementsByClassName("close")[0];
-  
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() { 
-    modal.style.display = "none";
-  }</script>
+    <!-- End portfolio Section  -->
 
-    <!-- Portfoolio osa lõpp  -->
-
-    <!-- Tutvustuse algus -->
+    <!-- Start About Section -->
 
     <div id="about" class="container-fluid text-center">
           <br>
-          <a class="anchor" id="kirjeldus-link"></a>
+          <a class="anchor" id="about-link"></a>
           <h1>Tutvustus</h1>
           
           <hr />
@@ -175,6 +177,7 @@ Minu nimi on Carolin. Olen üks Lõuna-Eesti neiu, kelle suurimaks kireks on fot
 Öeldakse, et igal inimesel on oma kirg. Kuid erinevate asjade suhtes. Minu omaks on pildistamine. Juba väiksena katsetasin lihtsa filmikaameraga pilti teha. Alates sellest hetkest ei ole ma kaamerat oma käest suutnud ära panna. 
                 <h3>Milliseid pilte ma teen?</h3>
 Ma jäädvustan inimesi, nende olulisi üritusi/sündmusi ja nende seiklusi.
+ <a href="/C:Users/Marc%20David/veebileht/vaheleht.html" target="_break">Sellest kodulehest lähemalt.</a>
                 <br>
                 <h2> Kui sul on vähimatki pildisoovi, siis võta julgelt ühendust! </h2>
                 </p>
@@ -183,9 +186,9 @@ Ma jäädvustan inimesi, nende olulisi üritusi/sündmusi ja nende seiklusi.
             </div>
           </div>
     </div>
-    <!-- Tutvustuse lõpp -->
+    <!-- End About Section -->
 
-    <!-- Kontaktid -->
+    <!-- Start Contact Section -->
 
     <div id="contact" class="container-fluid text-center">
       <h1>Kontakt</h1>
@@ -194,7 +197,7 @@ Ma jäädvustan inimesi, nende olulisi üritusi/sündmusi ja nende seiklusi.
         <div class="row">
           <div class="col-lg-4">
             <h2>Sotsiaalmeedia</h2>
-            <a href="https://www.instagram.com/carolinkirotar" id="kontakt-link">
+            <a href="https://www.instagram.com/carolinkirotar" id="contact-link">
               <span class="fa-stack fa-3x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
@@ -237,25 +240,25 @@ Ma jäädvustan inimesi, nende olulisi üritusi/sündmusi ja nende seiklusi.
         </div>
       </div>
     </div>
-    <!-- Kontaktid lõpp-->
+    <!-- End Contact Section -->
 
     <script type="text/javascript">
-      $(document).ready(function(){
-        $(".navbar-nav li").click(function(){
-          $(".navbar-nav li").removeClass("active");
-          $(this).addClass("active");
-        }
-        );
+     $(document).ready(function(){
+    $(".navbar-nav li").click(function(){
+      $(".navbar-nav li").removeClass("active");
+      $(this).addClass("active");
+    }
+    );
 
-        $('.navbar-nav a').click(function(event){
-            event.preventDefault();
-            $('html, body').animate({
-                scrollTop: $( $.attr(this, 'href') ).offset().top
-            }, 500);
-        });
+    $('.navbar-nav a').click(function(event){
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 500);
+    });
 
-      }
-      );
+  }
+  );
     </script>
   </body>
 </html>

@@ -16,7 +16,6 @@ $(function() {
       }
     });
   }
-  
   // call sizeSections on load
   sizeSections();
   // attach smoothScroll jQuery plugin to indicated links
@@ -26,7 +25,10 @@ $(function() {
   $(window).resize(function() {
     sizeSections();
   });
-
+  
+  
+  
   
 
 });
+
